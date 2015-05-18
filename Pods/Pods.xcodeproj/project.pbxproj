@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AD18D88FD45633D1E58B23 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB62B64A5213E384CDD9574 /* EdgeInsets.swift */; };
+		09E11793D37131C178E2D3B7 /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265B3A77EEE9E76B5DF4AFD /* WKInterfaceImage+Kingfisher.swift */; };
+		0A4EC95D65C6F30C7FAF1D3E /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C37ECD9400EC534E217C23 /* UIButton+Kingfisher.swift */; };
+		0A58E26BBADB9334F79267CA /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = F170B2528668B53EAD5534DD /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B2E5EA37351C0C6682BFEBD /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AE7A25EAAA40B0EEC055EA /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4C8AB17FAD19E3AC44E4E1 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2771C71AEB554C421FF3F595 /* ConstraintAttributes.swift */; };
+		0C5D10C93A309CF2A0054C71 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DCA7A488D023E2638CFC9F /* ParameterEncoding.swift */; };
+		0D94F98E5A0BF8484A294C27 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53C5414E4F3963D0E7B271E6 /* POPSpringAnimation.mm */; };
+		12421F5D64643EBAEADC43CA /* Pods-HotGirls-pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8F905347EF178FA1FD1E95 /* Pods-HotGirls-pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129AC745B615DDCB60C55F05 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0B0563C876B07BE4CF31A4 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1369D426F97FD63DE9C1AC13 /* UIImage+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C0A467CA530BD269F5FC2A /* UIImage+Decode.swift */; };
+		14AB31091C66C84C735A13C0 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B212070AE280BC3C04E23FB /* POPAnimation.mm */; };
+		1580E1DF6F0546F6AA6BF489 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A3C203E52482B068BB7750 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1694CB0638F914CA7C5A5CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E0C9943F125F6820B34A5 /* Foundation.framework */; };
+		17416172E410534C777E35EA /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4995CA33B9EC7EB44507720 /* String+MD5.swift */; };
+		190C0E247A2C8ACC28CDF786 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E5EA140DA5B0CE48266872 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19A60BD4D00EBCB38294B40B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6761BD1D3E970DA0D593F9 /* Constraint.swift */; };
+		19BE65EF8D6D6A22E7BF2B94 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07245ECA02804D7D424404F6 /* POPAnimator.mm */; };
+		19E3388FE9A77807EDA40748 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020543FED213D8BBE68EBA79 /* ImageCache.swift */; };
+		1CDC52E4B958AC3055ED932C /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = B47F90EC7EEAF5427ED27961 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		263FDEC19AB9DCC496008F2B /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D76476F7CCEB66202A0D5D86 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27DBB9FE7760DB0913B1596B /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7019B19D8858D9A46C70924B /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F50F39EE4A083344101E1E1 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71C8072BBA9B6FA76637C0F7 /* POPGeometry.mm */; };
+		3B70335D04D53C4B61CFD694 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA5B1CA1B22DF15BFF0DB54 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43311DB7B4B5BA7B9B1A0710 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF3B2146068E079935728B8A /* POPCGUtils.mm */; };
+		433FD2605261E6891F0C8C4A /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529B5F6CDE7E6E79889C1B3B /* View+SnapKit.swift */; };
+		47665E26CD4AC1951E491B70 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB50D21C278194064299E8BC /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47ADA5B58B1C36F1404CA00A /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 689AC94913483E15DE54EE42 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A1C0771EFE9AD9017BA0E84 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532AADA58C1F4BC845240D0D /* ConstraintDescription.swift */; };
+		4B72C96F7B4D85D82CBF8D9E /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA78C45C9B37C1A798AE5D2 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D3249129ED3CD6544CD6146 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2746C7CBACC20A6D34C1E4AD /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		508AFF76E9D040DA725C3956 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1DAE42E9CC492B5784B238 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		511C9C0BE80CA809E2FE0AA5 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B41551D6B907114CF4FD3 /* ConstraintItem.swift */; };
+		55764B0F34A0AC18A2A5BDDC /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F7E5417EDFD181B3BBA20F /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D135BD5EEE5805A2DFC631E /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 91C531D7DCC829473E48EC43 /* POPCustomAnimation.mm */; };
+		5F080ABD5668EE3CF682E2AC /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 017B06F9BDE8DDBA03EACE42 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FADFAAC97D167DB9E33D653 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E6093A8C91A675B5B3F47 /* Upload.swift */; };
+		600BFD891E828E75EF0B0F13 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB27B4A2A6962934CD4CC046 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626F2E3A48EF9DB37CCEC77A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE03802412A559FC0FF704 /* Manager.swift */; };
+		649FE26447E0C2FCAD6B797D /* Pods-HotGirls-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F37CF0841635E44B7E500 /* Pods-HotGirls-Alamofire-dummy.m */; };
+		70E8A59E5D75E65F7DB4CB77 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A3529CECD2413504079A9 /* LayoutConstraint.swift */; };
+		71D1A263B7EB3AD9F03B1A47 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6C52DAD9ED7C999F7726A19 /* POPDecayAnimation.mm */; };
+		72E586A1386650624605B889 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C70DB7F7C5F5F89FAD0FEFEF /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7392CAD9CD22BEB5EAC01609 /* Pods-HotGirls-Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CCC42C24574C0DE277EA87 /* Pods-HotGirls-Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756C00CE1A1301FB4FAE0D22 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1D44F13C4B5FBA33E715C /* Validation.swift */; };
+		762552DFF0057989A82B86AB /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = E33C1F439011DB87106EA7F0 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A7308C5B5F90113FF9A66BE /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C05090AE1420C9047FE34 /* KingfisherManager.swift */; };
+		7B29F433D19942B4F82F208E /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE125FE3A34B7C10758322F /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E06CDCA793E892F51270051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E0C9943F125F6820B34A5 /* Foundation.framework */; };
+		7F21E63BFE8CC33AB3E24405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E0C9943F125F6820B34A5 /* Foundation.framework */; };
+		82EE514592F9B636B7998B77 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F568F31F7364AB812E649B /* KingfisherOptionsInfo.swift */; };
+		83FD22858F7CA4E502BC5880 /* UIImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E729F6D9A0E8A78B03A337D /* UIImageView+Kingfisher.swift */; };
+		87B56193D41C78A408C414DB /* Pods-HotGirls-Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45496F702178B7967DD010EF /* Pods-HotGirls-Kingfisher-dummy.m */; };
+		89A58E1E8082AF3AE389B2C7 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDDAD26FD46E3650CE88E80 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC5A03ECA9CC0B03D976EDC /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 022F0112A03C24B68521E7A0 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E8E4FF21F2B975B43A336F0 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 631571EFBADE9A0BE4E52454 /* POPBasicAnimation.mm */; };
+		9332F2748821BEFC6B36655D /* Pods-HotGirls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A44B473CD6694892911E72A /* Pods-HotGirls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978F5719C5F3B916FC20976A /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEECA2ED9D564A37D5B2E8B4 /* POPAnimationTracer.mm */; };
+		9E3D349E3267C2D855656DB0 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD59695C31CDA042041E15B /* ConstraintRelation.swift */; };
+		9E5F85E29657DF575F0ABF0C /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7E709863C1BCC6003711B9 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A151ED7BBB3D7D5905220ACB /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E904A8EA168781D4515211F /* Debugging.swift */; };
+		A237CD96AD2E5ABBAB7AF9D8 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCD52C802EB300862F3D570A /* POPPropertyAnimation.mm */; };
+		A36A56D05AD10CA1FC15D5BE /* Pods-HotGirls-SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC63A4159A442DA6692FAD6 /* Pods-HotGirls-SnapKit-dummy.m */; };
+		A7F75523DBB502B4C02B33EC /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4097DF1F145D8E34C07C757 /* ImageDownloader.swift */; };
+		A86A738A9BA86F7C5CF1E036 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FE821740F47ED6B71BD2B2 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9CE4E63CB069C4E6E48D686 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852E913E323E8A790A8B290 /* ResponseSerialization.swift */; };
+		ACD11EFAA1EED0D27E0444D7 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D5DF8FAB0B850834557C3 /* Alamofire.swift */; };
+		B10120EAD16D9721D0448430 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78936DC82E8B7F14A31E2FCA /* POPMath.mm */; };
+		B34270C03C30809B57EC6231 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5C1B60EBDBEC7980C64BD4 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE7892132D12EA1FB8E9B3B9 /* Pods-HotGirls-pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2773516447ADC942AA4C8CCC /* Pods-HotGirls-pop-dummy.m */; };
+		BE7E444A1BEB45D7E0E11584 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD378C7AFBFD38D1DA1F9 /* POPAnimationRuntime.mm */; };
+		C292D2C026AA44773580D117 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E2851EE6D2E5DC26BD39A8 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E1EB32591F9433A845B794 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0256DE90D5FFDAA751E8F31B /* POPAnimationExtras.mm */; };
+		C7C08ED08614EFEB001D94A1 /* Pods-HotGirls-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA6852B2742DD6F9215841F /* Pods-HotGirls-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95E4D700AB9ACA8F6171300 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 695F3FBBDFAACA44B9F891AF /* POPVector.mm */; };
+		CC4D798DC359FA11B26ED57A /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 212FA99A7A8F9A3EDCBFFBE5 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF5E24F4413025C3E3A07CF0 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6685E252810E63F8BE461E7F /* TransformationMatrix.cpp */; };
+		D1C61D5A04311F9C12D27C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E0C9943F125F6820B34A5 /* Foundation.framework */; };
+		DA969F205938C55F905E6340 /* KingfisherOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957DD71C075CBACE0AF2AC73 /* KingfisherOptions.swift */; };
+		DC7F084652DD851C69C99C3D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC18FE03F92DD44B8F9C51 /* ConstraintMaker.swift */; };
+		DE2096A956F0238EF1134D59 /* Pods-HotGirls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE67B8401510437CA4A7A8D /* Pods-HotGirls-dummy.m */; };
+		DE2CD14C3B3E153426A1BF9F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3626075A4F68BABAFDC2FE64 /* Download.swift */; };
+		E32E8B314DB6795320BBAC6B /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD18BA988786EE84D44B090 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E497E2CC6DDAFDE51F2941A9 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E3B2CAE4F6F22B94CC99D2 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9D5EC46E38C9790B30F6F1D /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E190E6821A11AF83632BBE7 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9E0C78D1A08B9C71C7A81E /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B9A501E1A437EED34F18A4F /* POPLayerExtras.mm */; };
+		EFAA8166E6ADF227B898393A /* Pods-HotGirls-SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7B95487A42EDF5366EC811 /* Pods-HotGirls-SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23BAAB43E0633896F2BA96D /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7454BC1F279E231CFEC65A3 /* POPAnimationEvent.mm */; };
+		F5ED88AFD2C48F3B032ECB11 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1AAB80BFA62FC10AAEAB4 /* Request.swift */; };
+		F64D8F872BEE510A3A406B26 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AE58FE773E1EB3C980F17C /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79EF79A72A5E1DB6E12CF8B /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3546423D824B638AB2C7EA9D /* POPAnimatableProperty.mm */; };
+		F7D7CC7B6D1EE976F973ACD3 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF10F84EA3E14ECC84E1688 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB52EF83A4BAD7497EC9E650 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 467ED0B7808918F2CC09E3A5 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEBF8636D28BDD24F472188F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196E0C9943F125F6820B34A5 /* Foundation.framework */; };
+		FF14D6AC63D7E654D6A110C2 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B964B50040318CE9C9AAB4C9 /* SnapKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1216E6B97B59BCE46199D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF25FBE00A71318219EC2A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01CA8F68D19C67E7F645746;
+			remoteInfo = "Pods-HotGirls-pop";
+		};
+		59749CC39F478ACC47057D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF25FBE00A71318219EC2A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C1C962B9582514C0E9FDD5;
+			remoteInfo = "Pods-HotGirls-Alamofire";
+		};
+		BE26E018B9A1496075934847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF25FBE00A71318219EC2A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE35E75E055ADD27C3974995;
+			remoteInfo = "Pods-HotGirls-SnapKit";
+		};
+		C4B789B3BFA6027F5CB5FC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF25FBE00A71318219EC2A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3C3BF5218CC82803AA7757;
+			remoteInfo = "Pods-HotGirls-Kingfisher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017B06F9BDE8DDBA03EACE42 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		01A3C203E52482B068BB7750 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		020543FED213D8BBE68EBA79 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Kingfisher/ImageCache.swift; sourceTree = "<group>"; };
+		022F0112A03C24B68521E7A0 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		0256DE90D5FFDAA751E8F31B /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		07245ECA02804D7D424404F6 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		0BA6852B2742DD6F9215841F /* Pods-HotGirls-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		0C5E6093A8C91A675B5B3F47 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		101F5F308917994469F02061 /* Pods-HotGirls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls.release.xcconfig"; sourceTree = "<group>"; };
+		15F7E5417EDFD181B3BBA20F /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		196E0C9943F125F6820B34A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E729F6D9A0E8A78B03A337D /* UIImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Kingfisher.swift"; path = "Kingfisher/UIImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		212FA99A7A8F9A3EDCBFFBE5 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		24F1D44F13C4B5FBA33E715C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		256AA56BDF83276914369C5E /* Pods-HotGirls-Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		2746C7CBACC20A6D34C1E4AD /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		2771C71AEB554C421FF3F595 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		2773516447ADC942AA4C8CCC /* Pods-HotGirls-pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotGirls-pop-dummy.m"; sourceTree = "<group>"; };
+		29DCA7A488D023E2638CFC9F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2B3C05090AE1420C9047FE34 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Kingfisher/KingfisherManager.swift; sourceTree = "<group>"; };
+		2D84812AE8F8A5F5DE0F0CD8 /* Pods-HotGirls-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HotGirls-Alamofire.modulemap"; sourceTree = "<group>"; };
+		2E6761BD1D3E970DA0D593F9 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2F7EDF2DB4DA619638E7EA59 /* Pods-HotGirls-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		31A1AAB80BFA62FC10AAEAB4 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3546423D824B638AB2C7EA9D /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		3626075A4F68BABAFDC2FE64 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		3BAC18FE03F92DD44B8F9C51 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		3C1849CCD1DD8370F4EC23BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1DAE42E9CC492B5784B238 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		3CDDAD26FD46E3650CE88E80 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		3EE0453B1255AA3A3BE240C5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F0B0563C876B07BE4CF31A4 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		410F37CF0841635E44B7E500 /* Pods-HotGirls-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotGirls-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		43E5EA140DA5B0CE48266872 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		43F24A1846A74D8CE64B7C9E /* Pods-HotGirls-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		45496F702178B7967DD010EF /* Pods-HotGirls-Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotGirls-Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		467ED0B7808918F2CC09E3A5 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		46C0A467CA530BD269F5FC2A /* UIImage+Decode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Decode.swift"; path = "Kingfisher/UIImage+Decode.swift"; sourceTree = "<group>"; };
+		4953D6C311FB17BFC9331168 /* Pods-HotGirls-SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HotGirls-SnapKit.modulemap"; sourceTree = "<group>"; };
+		4AD59695C31CDA042041E15B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		4E904A8EA168781D4515211F /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		529B5F6CDE7E6E79889C1B3B /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		530A40F81D4094CD822AD24F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532AADA58C1F4BC845240D0D /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		533F04B6368779A5AB2AF047 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C5414E4F3963D0E7B271E6 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		595059AE9DB1FE79E6FDBFC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D4E645F281702F506CD72CB /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA78C45C9B37C1A798AE5D2 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		5FB62B64A5213E384CDD9574 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		6090BE65C9045D858F0F7B31 /* Pods-HotGirls-SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		61E3B2CAE4F6F22B94CC99D2 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		631571EFBADE9A0BE4E52454 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		64EF958D15CBC605BA85C895 /* Pods-HotGirls-SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-SnapKit.xcconfig"; sourceTree = "<group>"; };
+		65ADD378C7AFBFD38D1DA1F9 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		6685E252810E63F8BE461E7F /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		67E73A085245CA066CF7E081 /* Pods-HotGirls-SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
+		689AC94913483E15DE54EE42 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		695F3FBBDFAACA44B9F891AF /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		6A5C1B60EBDBEC7980C64BD4 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		6CBAB3388C7C6CB4619C74C5 /* Pods-HotGirls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HotGirls-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E190E6821A11AF83632BBE7 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		6E83DA69310A0E82CA823AEB /* Pods-HotGirls-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		7019B19D8858D9A46C70924B /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		71C8072BBA9B6FA76637C0F7 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		71EC3109F96CDF58080C8D95 /* Pods_HotGirls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotGirls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE7A25EAAA40B0EEC055EA /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		78936DC82E8B7F14A31E2FCA /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		7AC63A4159A442DA6692FAD6 /* Pods-HotGirls-SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotGirls-SnapKit-dummy.m"; sourceTree = "<group>"; };
+		7B212070AE280BC3C04E23FB /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		7B9A501E1A437EED34F18A4F /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		7EF10F84EA3E14ECC84E1688 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		7F1B41551D6B907114CF4FD3 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		813A3529CECD2413504079A9 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		880D5DF8FAB0B850834557C3 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8852E913E323E8A790A8B290 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		8A44B473CD6694892911E72A /* Pods-HotGirls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-umbrella.h"; sourceTree = "<group>"; };
+		8B5D7BE56695E1D82F472F75 /* Pods-HotGirls-Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HotGirls-Kingfisher.modulemap"; sourceTree = "<group>"; };
+		8BE67B8401510437CA4A7A8D /* Pods-HotGirls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HotGirls-dummy.m"; sourceTree = "<group>"; };
+		8DD5D69D12F10C45B4074D3C /* Pods-HotGirls-pop-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-pop-Private.xcconfig"; sourceTree = "<group>"; };
+		8EF9F2E00B616F8898A89333 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC2439EB3969D3108AA515C /* Pods-HotGirls-pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HotGirls-pop.modulemap"; sourceTree = "<group>"; };
+		91C531D7DCC829473E48EC43 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		9265B3A77EEE9E76B5DF4AFD /* WKInterfaceImage+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKInterfaceImage+Kingfisher.swift"; path = "Kingfisher/WKInterfaceImage+Kingfisher.swift"; sourceTree = "<group>"; };
+		957DD71C075CBACE0AF2AC73 /* KingfisherOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptions.swift; path = Kingfisher/KingfisherOptions.swift; sourceTree = "<group>"; };
+		9733E28853C93DD845954CE9 /* Pods-HotGirls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotGirls-resources.sh"; sourceTree = "<group>"; };
+		9DE9365B19E52A51BEEF8E31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E2851EE6D2E5DC26BD39A8 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		A4097DF1F145D8E34C07C757 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Kingfisher/ImageDownloader.swift; sourceTree = "<group>"; };
+		A7454BC1F279E231CFEC65A3 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		AC45C94696473861C1C7D32F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B551A8CCCB7F161FB60B84 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47F90EC7EEAF5427ED27961 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		B6E5067EC56639CD607B4412 /* Pods-HotGirls-pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-pop.xcconfig"; sourceTree = "<group>"; };
+		B964B50040318CE9C9AAB4C9 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		BF3B2146068E079935728B8A /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		BF8F905347EF178FA1FD1E95 /* Pods-HotGirls-pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-pop-umbrella.h"; sourceTree = "<group>"; };
+		C4E805F8773BC6F2422E18D1 /* Pods-HotGirls-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-environment.h"; sourceTree = "<group>"; };
+		C70DB7F7C5F5F89FAD0FEFEF /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		CFD18BA988786EE84D44B090 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		D3AE58FE773E1EB3C980F17C /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		D4995CA33B9EC7EB44507720 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Kingfisher/String+MD5.swift"; sourceTree = "<group>"; };
+		D76476F7CCEB66202A0D5D86 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		D9FE821740F47ED6B71BD2B2 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		DB50D21C278194064299E8BC /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		DE8486D69D32DD4D564CB6AE /* Pods-HotGirls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HotGirls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E19D450E195839E3C75DBD32 /* Pods-HotGirls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls.debug.xcconfig"; sourceTree = "<group>"; };
+		E33C1F439011DB87106EA7F0 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		E3C37ECD9400EC534E217C23 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Kingfisher/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		E581ADCB8CAAC17A8BB08870 /* Pods-HotGirls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HotGirls.modulemap"; sourceTree = "<group>"; };
+		E6CCC42C24574C0DE277EA87 /* Pods-HotGirls-Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		E83FAE950E59E2197EB17BAA /* Pods-HotGirls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HotGirls-frameworks.sh"; sourceTree = "<group>"; };
+		E9DE03802412A559FC0FF704 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		EB27B4A2A6962934CD4CC046 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		EB7E709863C1BCC6003711B9 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		EE7B95487A42EDF5366EC811 /* Pods-HotGirls-SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		EEECA2ED9D564A37D5B2E8B4 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		EFE125FE3A34B7C10758322F /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		F170B2528668B53EAD5534DD /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		F1DD2FE90A69839F1ABD4559 /* Pods-HotGirls-Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-Kingfisher.xcconfig"; sourceTree = "<group>"; };
+		F6C52DAD9ED7C999F7726A19 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		F6EC5B61DCE05FE2E08F1DD1 /* Pods-HotGirls-Kingfisher-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HotGirls-Kingfisher-Private.xcconfig"; sourceTree = "<group>"; };
+		F6F568F31F7364AB812E649B /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Kingfisher/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		FCD52C802EB300862F3D570A /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		FD5E7C909574F22CA17058BF /* Pods-HotGirls-pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HotGirls-pop-prefix.pch"; sourceTree = "<group>"; };
+		FFA5B1CA1B22DF15BFF0DB54 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188DB8EB185D576BA0DF2BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C61D5A04311F9C12D27C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20DAFCE77B3C8307B3F5657E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBF8636D28BDD24F472188F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3F37FE58C6FB4C80DA2C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694CB0638F914CA7C5A5CB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770FEC0633FA4A41BA4DEE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21E63BFE8CC33AB3E24405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AACDE1B46987990761BF472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E06CDCA793E892F51270051 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D730854D52007A7B5EC3A9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9365B19E52A51BEEF8E31 /* Info.plist */,
+				8B5D7BE56695E1D82F472F75 /* Pods-HotGirls-Kingfisher.modulemap */,
+				F1DD2FE90A69839F1ABD4559 /* Pods-HotGirls-Kingfisher.xcconfig */,
+				F6EC5B61DCE05FE2E08F1DD1 /* Pods-HotGirls-Kingfisher-Private.xcconfig */,
+				45496F702178B7967DD010EF /* Pods-HotGirls-Kingfisher-dummy.m */,
+				256AA56BDF83276914369C5E /* Pods-HotGirls-Kingfisher-prefix.pch */,
+				E6CCC42C24574C0DE277EA87 /* Pods-HotGirls-Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HotGirls-Kingfisher";
+			sourceTree = "<group>";
+		};
+		1D513927C7DD69463A8818EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				196E0C9943F125F6820B34A5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24458C82844873CA008B6667 = {
+			isa = PBXGroup;
+			children = (
+				3EE0453B1255AA3A3BE240C5 /* Podfile */,
+				BF219774BF090D79A4723C10 /* Frameworks */,
+				A7FEBBC455A420DB281E8C90 /* Pods */,
+				8EDD4B54009E0E734BA21D60 /* Products */,
+				380B77B6C86769D4FAED5A15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		28B89F0BED1B3B6D04F0494C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				880D5DF8FAB0B850834557C3 /* Alamofire.swift */,
+				3626075A4F68BABAFDC2FE64 /* Download.swift */,
+				E9DE03802412A559FC0FF704 /* Manager.swift */,
+				29DCA7A488D023E2638CFC9F /* ParameterEncoding.swift */,
+				31A1AAB80BFA62FC10AAEAB4 /* Request.swift */,
+				8852E913E323E8A790A8B290 /* ResponseSerialization.swift */,
+				0C5E6093A8C91A675B5B3F47 /* Upload.swift */,
+				24F1D44F13C4B5FBA33E715C /* Validation.swift */,
+				E2A461FDD7A14FEEB6C1AACD /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		318B93890DF9110016DD983B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1849CCD1DD8370F4EC23BF /* Info.plist */,
+				8FC2439EB3969D3108AA515C /* Pods-HotGirls-pop.modulemap */,
+				B6E5067EC56639CD607B4412 /* Pods-HotGirls-pop.xcconfig */,
+				8DD5D69D12F10C45B4074D3C /* Pods-HotGirls-pop-Private.xcconfig */,
+				2773516447ADC942AA4C8CCC /* Pods-HotGirls-pop-dummy.m */,
+				FD5E7C909574F22CA17058BF /* Pods-HotGirls-pop-prefix.pch */,
+				BF8F905347EF178FA1FD1E95 /* Pods-HotGirls-pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HotGirls-pop";
+			sourceTree = "<group>";
+		};
+		380B77B6C86769D4FAED5A15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				992C2038847DE3A9C26CBA52 /* Pods-HotGirls */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86AAB792E5BB003B6D84D8D8 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				022F0112A03C24B68521E7A0 /* FloatConversion.h */,
+				72AE7A25EAAA40B0EEC055EA /* POP.h */,
+				3F0B0563C876B07BE4CF31A4 /* POPAction.h */,
+				689AC94913483E15DE54EE42 /* POPAnimatableProperty.h */,
+				3546423D824B638AB2C7EA9D /* POPAnimatableProperty.mm */,
+				EB7E709863C1BCC6003711B9 /* POPAnimation.h */,
+				7B212070AE280BC3C04E23FB /* POPAnimation.mm */,
+				7EF10F84EA3E14ECC84E1688 /* POPAnimationEvent.h */,
+				A7454BC1F279E231CFEC65A3 /* POPAnimationEvent.mm */,
+				61E3B2CAE4F6F22B94CC99D2 /* POPAnimationEventInternal.h */,
+				E33C1F439011DB87106EA7F0 /* POPAnimationExtras.h */,
+				0256DE90D5FFDAA751E8F31B /* POPAnimationExtras.mm */,
+				467ED0B7808918F2CC09E3A5 /* POPAnimationInternal.h */,
+				EFE125FE3A34B7C10758322F /* POPAnimationPrivate.h */,
+				D9FE821740F47ED6B71BD2B2 /* POPAnimationRuntime.h */,
+				65ADD378C7AFBFD38D1DA1F9 /* POPAnimationRuntime.mm */,
+				D3AE58FE773E1EB3C980F17C /* POPAnimationTracer.h */,
+				EEECA2ED9D564A37D5B2E8B4 /* POPAnimationTracer.mm */,
+				2746C7CBACC20A6D34C1E4AD /* POPAnimationTracerInternal.h */,
+				3CDDAD26FD46E3650CE88E80 /* POPAnimator.h */,
+				07245ECA02804D7D424404F6 /* POPAnimator.mm */,
+				3C1DAE42E9CC492B5784B238 /* POPAnimatorPrivate.h */,
+				C70DB7F7C5F5F89FAD0FEFEF /* POPBasicAnimation.h */,
+				631571EFBADE9A0BE4E52454 /* POPBasicAnimation.mm */,
+				D76476F7CCEB66202A0D5D86 /* POPBasicAnimationInternal.h */,
+				212FA99A7A8F9A3EDCBFFBE5 /* POPCGUtils.h */,
+				BF3B2146068E079935728B8A /* POPCGUtils.mm */,
+				A1E2851EE6D2E5DC26BD39A8 /* POPCustomAnimation.h */,
+				91C531D7DCC829473E48EC43 /* POPCustomAnimation.mm */,
+				01A3C203E52482B068BB7750 /* POPDecayAnimation.h */,
+				F6C52DAD9ED7C999F7726A19 /* POPDecayAnimation.mm */,
+				5DA78C45C9B37C1A798AE5D2 /* POPDecayAnimationInternal.h */,
+				15F7E5417EDFD181B3BBA20F /* POPDefines.h */,
+				B47F90EC7EEAF5427ED27961 /* POPGeometry.h */,
+				71C8072BBA9B6FA76637C0F7 /* POPGeometry.mm */,
+				FFA5B1CA1B22DF15BFF0DB54 /* POPLayerExtras.h */,
+				7B9A501E1A437EED34F18A4F /* POPLayerExtras.mm */,
+				DB50D21C278194064299E8BC /* POPMath.h */,
+				78936DC82E8B7F14A31E2FCA /* POPMath.mm */,
+				EB27B4A2A6962934CD4CC046 /* POPPropertyAnimation.h */,
+				FCD52C802EB300862F3D570A /* POPPropertyAnimation.mm */,
+				CFD18BA988786EE84D44B090 /* POPPropertyAnimationInternal.h */,
+				6E190E6821A11AF83632BBE7 /* POPSpringAnimation.h */,
+				53C5414E4F3963D0E7B271E6 /* POPSpringAnimation.mm */,
+				017B06F9BDE8DDBA03EACE42 /* POPSpringAnimationInternal.h */,
+				43E5EA140DA5B0CE48266872 /* POPSpringSolver.h */,
+				7019B19D8858D9A46C70924B /* POPVector.h */,
+				695F3FBBDFAACA44B9F891AF /* POPVector.mm */,
+				6685E252810E63F8BE461E7F /* TransformationMatrix.cpp */,
+				F170B2528668B53EAD5534DD /* TransformationMatrix.h */,
+				6A5C1B60EBDBEC7980C64BD4 /* UnitBezier.h */,
+				318B93890DF9110016DD983B /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		8EDD4B54009E0E734BA21D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B551A8CCCB7F161FB60B84 /* Alamofire.framework */,
+				5D4E645F281702F506CD72CB /* Kingfisher.framework */,
+				71EC3109F96CDF58080C8D95 /* Pods_HotGirls.framework */,
+				530A40F81D4094CD822AD24F /* SnapKit.framework */,
+				533F04B6368779A5AB2AF047 /* pop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992C2038847DE3A9C26CBA52 /* Pods-HotGirls */ = {
+			isa = PBXGroup;
+			children = (
+				8EF9F2E00B616F8898A89333 /* Info.plist */,
+				E581ADCB8CAAC17A8BB08870 /* Pods-HotGirls.modulemap */,
+				DE8486D69D32DD4D564CB6AE /* Pods-HotGirls-acknowledgements.markdown */,
+				6CBAB3388C7C6CB4619C74C5 /* Pods-HotGirls-acknowledgements.plist */,
+				8BE67B8401510437CA4A7A8D /* Pods-HotGirls-dummy.m */,
+				C4E805F8773BC6F2422E18D1 /* Pods-HotGirls-environment.h */,
+				E83FAE950E59E2197EB17BAA /* Pods-HotGirls-frameworks.sh */,
+				9733E28853C93DD845954CE9 /* Pods-HotGirls-resources.sh */,
+				8A44B473CD6694892911E72A /* Pods-HotGirls-umbrella.h */,
+				E19D450E195839E3C75DBD32 /* Pods-HotGirls.debug.xcconfig */,
+				101F5F308917994469F02061 /* Pods-HotGirls.release.xcconfig */,
+			);
+			name = "Pods-HotGirls";
+			path = "Target Support Files/Pods-HotGirls";
+			sourceTree = "<group>";
+		};
+		A7FEBBC455A420DB281E8C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28B89F0BED1B3B6D04F0494C /* Alamofire */,
+				B5D3F64310CE5DD2F6661FBC /* Kingfisher */,
+				E316C11E5E1F59C201018E17 /* SnapKit */,
+				86AAB792E5BB003B6D84D8D8 /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5D3F64310CE5DD2F6661FBC /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				020543FED213D8BBE68EBA79 /* ImageCache.swift */,
+				A4097DF1F145D8E34C07C757 /* ImageDownloader.swift */,
+				2B3C05090AE1420C9047FE34 /* KingfisherManager.swift */,
+				957DD71C075CBACE0AF2AC73 /* KingfisherOptions.swift */,
+				F6F568F31F7364AB812E649B /* KingfisherOptionsInfo.swift */,
+				D4995CA33B9EC7EB44507720 /* String+MD5.swift */,
+				E3C37ECD9400EC534E217C23 /* UIButton+Kingfisher.swift */,
+				46C0A467CA530BD269F5FC2A /* UIImage+Decode.swift */,
+				1E729F6D9A0E8A78B03A337D /* UIImageView+Kingfisher.swift */,
+				9265B3A77EEE9E76B5DF4AFD /* WKInterfaceImage+Kingfisher.swift */,
+				0D730854D52007A7B5EC3A9B /* Support Files */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		BF219774BF090D79A4723C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D513927C7DD69463A8818EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E17F1EADA2349BA2486A75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC45C94696473861C1C7D32F /* Info.plist */,
+				4953D6C311FB17BFC9331168 /* Pods-HotGirls-SnapKit.modulemap */,
+				64EF958D15CBC605BA85C895 /* Pods-HotGirls-SnapKit.xcconfig */,
+				67E73A085245CA066CF7E081 /* Pods-HotGirls-SnapKit-Private.xcconfig */,
+				7AC63A4159A442DA6692FAD6 /* Pods-HotGirls-SnapKit-dummy.m */,
+				6090BE65C9045D858F0F7B31 /* Pods-HotGirls-SnapKit-prefix.pch */,
+				EE7B95487A42EDF5366EC811 /* Pods-HotGirls-SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HotGirls-SnapKit";
+			sourceTree = "<group>";
+		};
+		E2A461FDD7A14FEEB6C1AACD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				595059AE9DB1FE79E6FDBFC4 /* Info.plist */,
+				2D84812AE8F8A5F5DE0F0CD8 /* Pods-HotGirls-Alamofire.modulemap */,
+				6E83DA69310A0E82CA823AEB /* Pods-HotGirls-Alamofire.xcconfig */,
+				43F24A1846A74D8CE64B7C9E /* Pods-HotGirls-Alamofire-Private.xcconfig */,
+				410F37CF0841635E44B7E500 /* Pods-HotGirls-Alamofire-dummy.m */,
+				2F7EDF2DB4DA619638E7EA59 /* Pods-HotGirls-Alamofire-prefix.pch */,
+				0BA6852B2742DD6F9215841F /* Pods-HotGirls-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-HotGirls-Alamofire";
+			sourceTree = "<group>";
+		};
+		E316C11E5E1F59C201018E17 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E6761BD1D3E970DA0D593F9 /* Constraint.swift */,
+				2771C71AEB554C421FF3F595 /* ConstraintAttributes.swift */,
+				532AADA58C1F4BC845240D0D /* ConstraintDescription.swift */,
+				7F1B41551D6B907114CF4FD3 /* ConstraintItem.swift */,
+				3BAC18FE03F92DD44B8F9C51 /* ConstraintMaker.swift */,
+				4AD59695C31CDA042041E15B /* ConstraintRelation.swift */,
+				4E904A8EA168781D4515211F /* Debugging.swift */,
+				5FB62B64A5213E384CDD9574 /* EdgeInsets.swift */,
+				813A3529CECD2413504079A9 /* LayoutConstraint.swift */,
+				B964B50040318CE9C9AAB4C9 /* SnapKit.swift */,
+				529B5F6CDE7E6E79889C1B3B /* View+SnapKit.swift */,
+				D4E17F1EADA2349BA2486A75 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0053EFD0ECB6926747E36435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332F2748821BEFC6B36655D /* Pods-HotGirls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364CDFB329FDCDD1EFFF05DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAA8166E6ADF227B898393A /* Pods-HotGirls-SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0EE906BF1B100D9732B36D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C08ED08614EFEB001D94A1 /* Pods-HotGirls-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EBBEDC1CC1F0790474A074 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC5A03ECA9CC0B03D976EDC /* FloatConversion.h in Headers */,
+				0B2E5EA37351C0C6682BFEBD /* POP.h in Headers */,
+				129AC745B615DDCB60C55F05 /* POPAction.h in Headers */,
+				47ADA5B58B1C36F1404CA00A /* POPAnimatableProperty.h in Headers */,
+				9E5F85E29657DF575F0ABF0C /* POPAnimation.h in Headers */,
+				F7D7CC7B6D1EE976F973ACD3 /* POPAnimationEvent.h in Headers */,
+				E497E2CC6DDAFDE51F2941A9 /* POPAnimationEventInternal.h in Headers */,
+				762552DFF0057989A82B86AB /* POPAnimationExtras.h in Headers */,
+				FB52EF83A4BAD7497EC9E650 /* POPAnimationInternal.h in Headers */,
+				7B29F433D19942B4F82F208E /* POPAnimationPrivate.h in Headers */,
+				A86A738A9BA86F7C5CF1E036 /* POPAnimationRuntime.h in Headers */,
+				F64D8F872BEE510A3A406B26 /* POPAnimationTracer.h in Headers */,
+				4D3249129ED3CD6544CD6146 /* POPAnimationTracerInternal.h in Headers */,
+				89A58E1E8082AF3AE389B2C7 /* POPAnimator.h in Headers */,
+				508AFF76E9D040DA725C3956 /* POPAnimatorPrivate.h in Headers */,
+				72E586A1386650624605B889 /* POPBasicAnimation.h in Headers */,
+				263FDEC19AB9DCC496008F2B /* POPBasicAnimationInternal.h in Headers */,
+				CC4D798DC359FA11B26ED57A /* POPCGUtils.h in Headers */,
+				C292D2C026AA44773580D117 /* POPCustomAnimation.h in Headers */,
+				1580E1DF6F0546F6AA6BF489 /* POPDecayAnimation.h in Headers */,
+				4B72C96F7B4D85D82CBF8D9E /* POPDecayAnimationInternal.h in Headers */,
+				55764B0F34A0AC18A2A5BDDC /* POPDefines.h in Headers */,
+				1CDC52E4B958AC3055ED932C /* POPGeometry.h in Headers */,
+				3B70335D04D53C4B61CFD694 /* POPLayerExtras.h in Headers */,
+				47665E26CD4AC1951E491B70 /* POPMath.h in Headers */,
+				600BFD891E828E75EF0B0F13 /* POPPropertyAnimation.h in Headers */,
+				E32E8B314DB6795320BBAC6B /* POPPropertyAnimationInternal.h in Headers */,
+				E9D5EC46E38C9790B30F6F1D /* POPSpringAnimation.h in Headers */,
+				5F080ABD5668EE3CF682E2AC /* POPSpringAnimationInternal.h in Headers */,
+				190C0E247A2C8ACC28CDF786 /* POPSpringSolver.h in Headers */,
+				27DBB9FE7760DB0913B1596B /* POPVector.h in Headers */,
+				12421F5D64643EBAEADC43CA /* Pods-HotGirls-pop-umbrella.h in Headers */,
+				0A58E26BBADB9334F79267CA /* TransformationMatrix.h in Headers */,
+				B34270C03C30809B57EC6231 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9BBA368ECD7433DF437395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7392CAD9CD22BEB5EAC01609 /* Pods-HotGirls-Kingfisher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67C1C962B9582514C0E9FDD5 /* Pods-HotGirls-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB6D96542DE813CC6344964 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-Alamofire" */;
+			buildPhases = (
+				59ECA8703B146EAA8514ED64 /* Sources */,
+				770FEC0633FA4A41BA4DEE19 /* Frameworks */,
+				BB0EE906BF1B100D9732B36D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotGirls-Alamofire";
+			productName = "Pods-HotGirls-Alamofire";
+			productReference = B2B551A8CCCB7F161FB60B84 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B3C3BF5218CC82803AA7757 /* Pods-HotGirls-Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C4C454B0AAD3E0A0AA0936 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-Kingfisher" */;
+			buildPhases = (
+				ED258D4BE560267797A593EF /* Sources */,
+				6C3F37FE58C6FB4C80DA2C4D /* Frameworks */,
+				DB9BBA368ECD7433DF437395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotGirls-Kingfisher";
+			productName = "Pods-HotGirls-Kingfisher";
+			productReference = 5D4E645F281702F506CD72CB /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE35E75E055ADD27C3974995 /* Pods-HotGirls-SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916F3FED47D1F008125712B6 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-SnapKit" */;
+			buildPhases = (
+				A5BB4F77629FC026FAD2F5CE /* Sources */,
+				20DAFCE77B3C8307B3F5657E /* Frameworks */,
+				364CDFB329FDCDD1EFFF05DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotGirls-SnapKit";
+			productName = "Pods-HotGirls-SnapKit";
+			productReference = 530A40F81D4094CD822AD24F /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECEB5E41626E0527F23657B5 /* Pods-HotGirls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7D86FE14DC251625C78DB8 /* Build configuration list for PBXNativeTarget "Pods-HotGirls" */;
+			buildPhases = (
+				AE43DFD8E5766804B38904BD /* Sources */,
+				188DB8EB185D576BA0DF2BB8 /* Frameworks */,
+				0053EFD0ECB6926747E36435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA590402D0777AD95D9AED3 /* PBXTargetDependency */,
+				3553E838D259C7F1D87B3FDE /* PBXTargetDependency */,
+				9E40269FF498CC3A18165073 /* PBXTargetDependency */,
+				8004EDC975CD766B31974DD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HotGirls";
+			productName = "Pods-HotGirls";
+			productReference = 71EC3109F96CDF58080C8D95 /* Pods_HotGirls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F01CA8F68D19C67E7F645746 /* Pods-HotGirls-pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083C29986D635318AAA65AE2 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-pop" */;
+			buildPhases = (
+				4DD83B242EAE281F038772C2 /* Sources */,
+				7AACDE1B46987990761BF472 /* Frameworks */,
+				D1EBBEDC1CC1F0790474A074 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HotGirls-pop";
+			productName = "Pods-HotGirls-pop";
+			productReference = 533F04B6368779A5AB2AF047 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF25FBE00A71318219EC2A88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 41F48AFFFE2332F97DBF99F2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24458C82844873CA008B6667;
+			productRefGroup = 8EDD4B54009E0E734BA21D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEB5E41626E0527F23657B5 /* Pods-HotGirls */,
+				67C1C962B9582514C0E9FDD5 /* Pods-HotGirls-Alamofire */,
+				6B3C3BF5218CC82803AA7757 /* Pods-HotGirls-Kingfisher */,
+				DE35E75E055ADD27C3974995 /* Pods-HotGirls-SnapKit */,
+				F01CA8F68D19C67E7F645746 /* Pods-HotGirls-pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD83B242EAE281F038772C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79EF79A72A5E1DB6E12CF8B /* POPAnimatableProperty.mm in Sources */,
+				14AB31091C66C84C735A13C0 /* POPAnimation.mm in Sources */,
+				F23BAAB43E0633896F2BA96D /* POPAnimationEvent.mm in Sources */,
+				C5E1EB32591F9433A845B794 /* POPAnimationExtras.mm in Sources */,
+				BE7E444A1BEB45D7E0E11584 /* POPAnimationRuntime.mm in Sources */,
+				978F5719C5F3B916FC20976A /* POPAnimationTracer.mm in Sources */,
+				19BE65EF8D6D6A22E7BF2B94 /* POPAnimator.mm in Sources */,
+				8E8E4FF21F2B975B43A336F0 /* POPBasicAnimation.mm in Sources */,
+				43311DB7B4B5BA7B9B1A0710 /* POPCGUtils.mm in Sources */,
+				5D135BD5EEE5805A2DFC631E /* POPCustomAnimation.mm in Sources */,
+				71D1A263B7EB3AD9F03B1A47 /* POPDecayAnimation.mm in Sources */,
+				2F50F39EE4A083344101E1E1 /* POPGeometry.mm in Sources */,
+				EB9E0C78D1A08B9C71C7A81E /* POPLayerExtras.mm in Sources */,
+				B10120EAD16D9721D0448430 /* POPMath.mm in Sources */,
+				A237CD96AD2E5ABBAB7AF9D8 /* POPPropertyAnimation.mm in Sources */,
+				0D94F98E5A0BF8484A294C27 /* POPSpringAnimation.mm in Sources */,
+				C95E4D700AB9ACA8F6171300 /* POPVector.mm in Sources */,
+				BE7892132D12EA1FB8E9B3B9 /* Pods-HotGirls-pop-dummy.m in Sources */,
+				CF5E24F4413025C3E3A07CF0 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59ECA8703B146EAA8514ED64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD11EFAA1EED0D27E0444D7 /* Alamofire.swift in Sources */,
+				DE2CD14C3B3E153426A1BF9F /* Download.swift in Sources */,
+				626F2E3A48EF9DB37CCEC77A /* Manager.swift in Sources */,
+				0C5D10C93A309CF2A0054C71 /* ParameterEncoding.swift in Sources */,
+				649FE26447E0C2FCAD6B797D /* Pods-HotGirls-Alamofire-dummy.m in Sources */,
+				F5ED88AFD2C48F3B032ECB11 /* Request.swift in Sources */,
+				A9CE4E63CB069C4E6E48D686 /* ResponseSerialization.swift in Sources */,
+				5FADFAAC97D167DB9E33D653 /* Upload.swift in Sources */,
+				756C00CE1A1301FB4FAE0D22 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BB4F77629FC026FAD2F5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A60BD4D00EBCB38294B40B /* Constraint.swift in Sources */,
+				0B4C8AB17FAD19E3AC44E4E1 /* ConstraintAttributes.swift in Sources */,
+				4A1C0771EFE9AD9017BA0E84 /* ConstraintDescription.swift in Sources */,
+				511C9C0BE80CA809E2FE0AA5 /* ConstraintItem.swift in Sources */,
+				DC7F084652DD851C69C99C3D /* ConstraintMaker.swift in Sources */,
+				9E3D349E3267C2D855656DB0 /* ConstraintRelation.swift in Sources */,
+				A151ED7BBB3D7D5905220ACB /* Debugging.swift in Sources */,
+				01AD18D88FD45633D1E58B23 /* EdgeInsets.swift in Sources */,
+				70E8A59E5D75E65F7DB4CB77 /* LayoutConstraint.swift in Sources */,
+				A36A56D05AD10CA1FC15D5BE /* Pods-HotGirls-SnapKit-dummy.m in Sources */,
+				FF14D6AC63D7E654D6A110C2 /* SnapKit.swift in Sources */,
+				433FD2605261E6891F0C8C4A /* View+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE43DFD8E5766804B38904BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2096A956F0238EF1134D59 /* Pods-HotGirls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED258D4BE560267797A593EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3388FE9A77807EDA40748 /* ImageCache.swift in Sources */,
+				A7F75523DBB502B4C02B33EC /* ImageDownloader.swift in Sources */,
+				7A7308C5B5F90113FF9A66BE /* KingfisherManager.swift in Sources */,
+				DA969F205938C55F905E6340 /* KingfisherOptions.swift in Sources */,
+				82EE514592F9B636B7998B77 /* KingfisherOptionsInfo.swift in Sources */,
+				87B56193D41C78A408C414DB /* Pods-HotGirls-Kingfisher-dummy.m in Sources */,
+				17416172E410534C777E35EA /* String+MD5.swift in Sources */,
+				0A4EC95D65C6F30C7FAF1D3E /* UIButton+Kingfisher.swift in Sources */,
+				1369D426F97FD63DE9C1AC13 /* UIImage+Decode.swift in Sources */,
+				83FD22858F7CA4E502BC5880 /* UIImageView+Kingfisher.swift in Sources */,
+				09E11793D37131C178E2D3B7 /* WKInterfaceImage+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3553E838D259C7F1D87B3FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HotGirls-Kingfisher";
+			target = 6B3C3BF5218CC82803AA7757 /* Pods-HotGirls-Kingfisher */;
+			targetProxy = C4B789B3BFA6027F5CB5FC27 /* PBXContainerItemProxy */;
+		};
+		8004EDC975CD766B31974DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HotGirls-pop";
+			target = F01CA8F68D19C67E7F645746 /* Pods-HotGirls-pop */;
+			targetProxy = 0C1216E6B97B59BCE46199D7 /* PBXContainerItemProxy */;
+		};
+		8DA590402D0777AD95D9AED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HotGirls-Alamofire";
+			target = 67C1C962B9582514C0E9FDD5 /* Pods-HotGirls-Alamofire */;
+			targetProxy = 59749CC39F478ACC47057D27 /* PBXContainerItemProxy */;
+		};
+		9E40269FF498CC3A18165073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HotGirls-SnapKit";
+			target = DE35E75E055ADD27C3974995 /* Pods-HotGirls-SnapKit */;
+			targetProxy = BE26E018B9A1496075934847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0159EA143A57D9B55C6F3E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A4CBEFE681410D53AD25CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19D450E195839E3C75DBD32 /* Pods-HotGirls.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls/Pods-HotGirls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HotGirls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		342AE48E9DCD31657F1243D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EC5B61DCE05FE2E08F1DD1 /* Pods-HotGirls-Kingfisher-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-Kingfisher/Pods-HotGirls-Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-Kingfisher/Pods-HotGirls-Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FEA581F6A24C46EBF1723F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101F5F308917994469F02061 /* Pods-HotGirls.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls/Pods-HotGirls.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HotGirls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		459A3B1C3B1FA626D9A0ADEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F24A1846A74D8CE64B7C9E /* Pods-HotGirls-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-Alamofire/Pods-HotGirls-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-Alamofire/Pods-HotGirls-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59982624D42CCB12E1BB821F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F24A1846A74D8CE64B7C9E /* Pods-HotGirls-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-Alamofire/Pods-HotGirls-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-Alamofire/Pods-HotGirls-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A36FBAB755F160CFDFF067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD5D69D12F10C45B4074D3C /* Pods-HotGirls-pop-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-pop/Pods-HotGirls-pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-pop/Pods-HotGirls-pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D233591AF8758486B9475C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EC5B61DCE05FE2E08F1DD1 /* Pods-HotGirls-Kingfisher-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-Kingfisher/Pods-HotGirls-Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-Kingfisher/Pods-HotGirls-Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		987FDBF4C45398ABAA194B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E73A085245CA066CF7E081 /* Pods-HotGirls-SnapKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-SnapKit/Pods-HotGirls-SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-SnapKit/Pods-HotGirls-SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B962A9A565C61B861DD4B068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E73A085245CA066CF7E081 /* Pods-HotGirls-SnapKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-SnapKit/Pods-HotGirls-SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-SnapKit/Pods-HotGirls-SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED0BDC4BF6C44F691DCB51D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7E39026A3D04CECFFA1CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD5D69D12F10C45B4074D3C /* Pods-HotGirls-pop-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HotGirls-pop/Pods-HotGirls-pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HotGirls-pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HotGirls-pop/Pods-HotGirls-pop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083C29986D635318AAA65AE2 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A36FBAB755F160CFDFF067D /* Debug */,
+				F7E39026A3D04CECFFA1CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F48AFFFE2332F97DBF99F2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0BDC4BF6C44F691DCB51D9 /* Debug */,
+				0159EA143A57D9B55C6F3E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB6D96542DE813CC6344964 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459A3B1C3B1FA626D9A0ADEE /* Debug */,
+				59982624D42CCB12E1BB821F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C4C454B0AAD3E0A0AA0936 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D233591AF8758486B9475C6 /* Debug */,
+				342AE48E9DCD31657F1243D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916F3FED47D1F008125712B6 /* Build configuration list for PBXNativeTarget "Pods-HotGirls-SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987FDBF4C45398ABAA194B92 /* Debug */,
+				B962A9A565C61B861DD4B068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7D86FE14DC251625C78DB8 /* Build configuration list for PBXNativeTarget "Pods-HotGirls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4CBEFE681410D53AD25CB7 /* Debug */,
+				3FEA581F6A24C46EBF1723F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF25FBE00A71318219EC2A88 /* Project object */;
+}

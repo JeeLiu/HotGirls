@@ -1,0 +1,6 @@
+framework module Pods_HotGirls {
+  umbrella header "Pods-HotGirls-umbrella.h"
+
+  export *
+  module * { export * }
+}

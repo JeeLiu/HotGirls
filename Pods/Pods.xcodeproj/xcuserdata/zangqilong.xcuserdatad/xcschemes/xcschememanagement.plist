@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-HotGirls-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HotGirls-Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HotGirls-SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HotGirls-pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HotGirls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>67C1C962B9582514C0E9FDD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B3C3BF5218CC82803AA7757</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE35E75E055ADD27C3974995</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECEB5E41626E0527F23657B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F01CA8F68D19C67E7F645746</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
